@@ -411,6 +411,12 @@ UTF-8 编码具有更广泛的适应性。BOM 在使用程序或工具处理文�
 <link rel="stylesheet" src="page.css">
 ```
 
+#### [建议] 引入 `CSS` 和 `JavaScript` 时指明 `type` 属性。
+
+解释：
+
+`text/css` 和 `text/javascript` 是 type 的默认值，但是建议指明 `type` 属性。
+
 
 #### [建议] 展现定义放置于外部 `CSS` 中，行为定义放置于外部 `JavaScript` 中。
 
